@@ -1,0 +1,60 @@
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-blue {
+    background-color: #3490dc;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #2177b4;
+}
+
+.day {
+    width: 10rem;
+    height: 8rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    padding: 8px;
+    
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    padding: 8px;
+
+}
+.grid-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #718096;
+    padding: 8px;
+  
+    height: 8rem;
+}
+.selected {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+
+.holiday {
+    background-color: #ff7373;  
+}

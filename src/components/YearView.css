@@ -1,0 +1,71 @@
+.year-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.month-container {
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    width: 300px;
+    margin: 30px;
+}
+
+.month-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    text-align: center;
+}
+
+.dates-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.date-item {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.sunday {
+    color: red;
+}
+
+.monday {
+    color: blue;
+}
+
+.day-of-week {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    padding: 5px;
+    width: 30px;
+}
+
+.months-grid {
+display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
